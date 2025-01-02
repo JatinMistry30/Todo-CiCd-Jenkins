@@ -46,7 +46,7 @@ pipeline {
                         ls -l
                         node --version
                         npm --version
-                        npm install
+                        npm install --legacy-peer-deps
                         npm run build
                         ls -l
                     '''
